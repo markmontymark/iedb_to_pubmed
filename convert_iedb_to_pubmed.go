@@ -90,7 +90,7 @@ func lineHandler(row []string, outstream *os.File) {
 	}
 }
 
-func process_file(path string) {
+func Process_file(path string) {
 	file, err := os.Open(path)
 	if err != nil {
 		fmt.Printf("error opening file: %v\n", err)
